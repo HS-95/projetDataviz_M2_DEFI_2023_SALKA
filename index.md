@@ -5,7 +5,7 @@
 
 Les océans
 
-   <iframe title="Température moyenne de l'air en surface des zones océaniques ou terrestres (°C)" aria-label="Interactive line chart" id="datawrapper-chart-ocDqe" src="https://datawrapper.dwcdn.net/ocDqe/2/" scrolling="no" frameborder="0" style= "width=800; min-width: 100% !important; border: none;" height="600" data-external="1"></iframe>
+   <iframe title="Température moyenne de l'air en surface des zones océaniques ou terrestres (°C)" aria-label="Interactive line chart" id="datawrapper-chart-ocDqe" src="https://datawrapper.dwcdn.net/ocDqe/2/" scrolling="no" frameborder="0" style= "width=1076; min-width: 100% !important; border: none;" height="600" data-external="1"></iframe>
  
 
 ## Sommaire
