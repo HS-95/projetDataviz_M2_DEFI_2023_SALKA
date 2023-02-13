@@ -1,4 +1,4 @@
-# Les océans et leurs habitants : entre intrus et légitimes résidents
+# Les océans et leurs habitants : entre intrus et êtres-vivants
 
  
 ## Sommaire
