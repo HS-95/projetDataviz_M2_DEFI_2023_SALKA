@@ -56,6 +56,28 @@ On retrouve les 5 océans, et leurs superficies respectives :
 >
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
+Souhaitant obtenir un jeu de données plus riches j'ai tenté de collecter des informations dans wikidata autours des océans. Le problème est que certaines lignes sont soit des doublons (exemple: il y a deux entités pour la propriété profondeur, donc un renvois d'une valeur moyenne et d'une valeur maximale ce qui fait que la ligne "océan pacifique" apparaît 2 fois), soit vides dû à l'absence de propriétés communes, d'où le choix d'utiliser la fonction "OPTIONNAL" afin de ne pas me retrouver avec 0 résultat.
+
+```sparql
+#Informations sur les océans
+SELECT DISTINCT  ?ocean ?oceanLabel ?area ?volume ?largeur ?profondeur ?carteLocalisationImage ?image ?relief ?coordonnéesGeo
+{
+  ?ocean wdt:P31 wd:Q9430. #océan
+  ?ocean wdt:P2046 ?area. #superficie des océans
+  ?ocean wdt:P2234 ?volume.#volume des océans
+  ?ocean wdt:P4511 ?profondeur.#profondeur des océans
+  ?ocean wdt:P625 ?coordonnéesGeo.#coordonnées géographiques des océans
+  
+  OPTIONAL { ?ocean wdt:P2049 ?largeur.} #éventuellement la largeur des océans
+  OPTIONAL { ?ocean wdt:P1943 ?carteLocalisationImage.} #éventuellement une carte de la localisation des océans
+  OPTIONAL { ?ocean wdt:P18 ?image.} #éventuellement une image en lien avec les océans
+  OPTIONAL { ?ocean wdt:P1944 ?relief.} #éventuellement une image en relief des océans
+  SERVICE wikibase:label {bd:serviceParam wikibase:language "fr" }
+}
+```
+
+Pour arranger mon tableau de données j'ai donc décider d'utiliser OpenRefine.
+
 
 ##Évolution des températures moyenne de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
 
