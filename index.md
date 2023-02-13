@@ -1,6 +1,8 @@
 # Les océans et leurs habitants : entre intrus et êtres-vivants
 
- 
+Les océans, rien qu'à lire ce mot, nous savons déjà que nous nous aventurons dans quelque chose de vaste, trop vaste et plein de mystères. Et bien que les données à ma disposition, m'ont permis d'en apprendre plus, il faut garder en tête que nos connaissances sur le sujet ne sont finalement qu'une goutte d'eau dans la mer, dans l'océan ...
+
+
 ## Sommaire
 1. [1](#a)
 2. [2](#b)
