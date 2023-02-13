@@ -5,6 +5,16 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Vue%20a%C3%A9rienne%20du%20Monde%0A%23The%20Blue%20Marble%3A%20Land%20Surface%2C%20Ocean%20Color%20and%20Sea%20Ice%20%7C%20La%20bille%20bleue%20%3A%20surface%20terrestre%2C%20couleur%20de%20l'oc%C3%A9an%20et%20glaces%20maritimes%0A%23defaultView%3AImageGrid%0ASELECT%20%3Focean%20%3FoceanLabel%20%3FvueAerienne%0AWHERE%20%7B%0A%20%20%3Focean%20wdt%3AP31%20wd%3AQ9430.%20%23oc%C3%A9ans%0A%20%20%3Focean%20wdt%3AP8592%20%3FvueAerienne.%0A%20%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22%20%7D%0A%7D%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
  > Source : [The Blue Marble: Land Surface, Ocean Color and Sea Ice ](https://visibleearth.nasa.gov/images/57730/the-blue-marble-land-surface-ocean-color-and-sea-ice)
 
+## Sommaire
+1. [1](#données)
+2. [2](#b)
+3. [3](#c)
+4. [4](#d)
+5. [5](#e)
+6. [6](#f)
+
+## Collecte des données <a name="données"></a>
+
 Tout d'abord, nous devons faire connaisance avec l'océan, qu'est-ce que c'est, où c'est, y en a-t'il qu'un ou plusieurs ? ... et pour y répondre rien de mieux qu'une requête wikidata :
 
 ``` sparql
@@ -47,25 +57,11 @@ On retrouve les 5 océans, et leurs superficies respectives :
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 
-## Sommaire
-1. [1](#a)
-2. [2](#b)
-3. [3](#c)
-4. [4](#d)
-5. [5](#e)
-6. [6](#f)
 
-##
 
-``` sparql
-#Océans
-SELECT DISTINCT ?ocean ?oceanLabel ?image
-WHERE {
-  ?ocean wdt:P31 wd:Q9430. # Un océan
-  OPTIONAL { ?ocean wdt:P18 ?image.} #une image en lien avec l'océan
-  SERVICE wikibase:label {bd:serviceParam wikibase:language "fr" }
-}
-```
+
+
+
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}(); 
 </script>
@@ -73,7 +69,6 @@ WHERE {
  
  > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-## 1<a name="a"></a>
 ## 2<a name="b"></a>
 ## 3<a name="c"></a>
 ## 4<a name="d"></a>
