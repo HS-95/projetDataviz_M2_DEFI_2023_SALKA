@@ -32,7 +32,6 @@ SELECT DISTINCT  ?ocean ?oceanLabel ?area ?image
 }
 ```
 On retrouve les 5 océans, et leurs superficies respectives :
-*Il faut noter que l'océan mondial regroupe les mers et océans de la terre, ainsi les 5 océans font partie de l'océan mondial.
 
 |      Océans      | Surface (en km²) |
 |:----------------:|:----------------:|
@@ -43,7 +42,10 @@ On retrouve les 5 océans, et leurs superficies respectives :
 |  océan Pacifique |     161 760 000  |
 |   océan mondial  |     361 260 000  |
 
-> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+> *Il faut noter que l'océan mondial regroupe les mers et océans de la terre, ainsi les 5 océans font partie de l'océan mondial.*
+>
+>>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+
 
 ## Sommaire
 1. [1](#a)
