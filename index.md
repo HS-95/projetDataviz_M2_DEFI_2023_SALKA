@@ -20,6 +20,8 @@ Cette première requête aussi simpliste soit-elle m'a permis de faire "un état
 
 Tandis que la requête ci-dessous donne un résultat plus cohérent : 
 
+```sparql
+
 #Les 5 océans et leur superficies respectives
 SELECT DISTINCT  ?ocean ?oceanLabel ?area ?image
 {
@@ -28,8 +30,9 @@ SELECT DISTINCT  ?ocean ?oceanLabel ?area ?image
   OPTIONAL { ?ocean wdt:P18 ?image.} #une image en lien avec l'océan
   SERVICE wikibase:label {bd:serviceParam wikibase:language "fr" }
 }
-
-On retrouve les 5 océans, et leurs superficies respective. Il faut noter que l'océan mondial regroupe les mers et océans de la terre, ainsi les 5 océans font partie de l'océan mondial.
+```
+On retrouve les 5 océans, et leurs superficies respectives :
+*Il faut noter que l'océan mondial regroupe les mers et océans de la terre, ainsi les 5 océans font partie de l'océan mondial.
 
 |      Océans      | Surface (en km²) |
 |:----------------:|:----------------:|
@@ -41,7 +44,6 @@ On retrouve les 5 océans, et leurs superficies respective. Il faut noter que l'
 |   océan mondial  |     361 260 000  |
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
-
 
 ## Sommaire
 1. [1](#a)
