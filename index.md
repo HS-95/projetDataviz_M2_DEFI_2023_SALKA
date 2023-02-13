@@ -7,7 +7,7 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 
 ## Sommaire
 1. [Collecte des données](#données)
-2. [Évolution des températures moyenne de l'air en surface des zones océaniques et terrestres](#températures)
+2. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
 3. [3](#c)
 4. [4](#d)
 5. [5](#e)
@@ -56,30 +56,29 @@ On retrouve les 5 océans, et leurs superficies respectives :
 >
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Souhaitant obtenir un jeu de données plus riches j'ai tenté de collecter des informations dans wikidata autours des océans. Le problème est que certaines lignes sont soit des doublons (exemple: il y a deux entités pour la propriété profondeur, donc un renvois d'une valeur moyenne et d'une valeur maximale ce qui fait que la ligne "océan pacifique" apparaît 2 fois), soit vides dû à l'absence de propriétés communes, d'où le choix d'utiliser la fonction "OPTIONNAL" afin de ne pas me retrouver avec 0 résultat.
+Souhaitant obtenir un jeu de données plus riches j'ai tenté de collecter des informations dans wikidata autours des océans. Le problème est que certaines lignes sont soit des doublons voir des triplées (exemple: il y a deux entités pour la propriété profondeur, donc un renvois d'une valeur moyenne et d'une valeur maximale ce qui fait que la ligne "océan pacifique" apparaît 2 fois). Soit vides, dû à l'absence de propriétés communes, d'où le choix d'utiliser la fonction "OPTIONNAL" afin de ne pas me retrouver avec 0 résultat, voire pire une ligne a été supprimée comme par exemple Océan Austral car il n'a pas la propriété "coordonnées géographiques" sur wikidata.
 
 ```sparql
 #Informations sur les océans
-SELECT DISTINCT  ?ocean ?oceanLabel ?area ?volume ?largeur ?profondeur ?carteLocalisationImage ?image ?relief ?coordonnéesGeo
+SELECT DISTINCT  ?ocean ?oceanLabel ?area ?volume ?largeur ?profondeur ?carteLocalisationImage ?image ?relief ?coordonneesGeo
 {
   ?ocean wdt:P31 wd:Q9430. #océan
   ?ocean wdt:P2046 ?area. #superficie des océans
   ?ocean wdt:P2234 ?volume.#volume des océans
   ?ocean wdt:P4511 ?profondeur.#profondeur des océans
-  ?ocean wdt:P625 ?coordonnéesGeo.#coordonnées géographiques des océans
+  ?ocean wdt:P625 ?coordonneesGeo.#coordonnées géographiques des océans
   
   OPTIONAL { ?ocean wdt:P2049 ?largeur.} #éventuellement la largeur des océans
   OPTIONAL { ?ocean wdt:P1943 ?carteLocalisationImage.} #éventuellement une carte de la localisation des océans
   OPTIONAL { ?ocean wdt:P18 ?image.} #éventuellement une image en lien avec les océans
   OPTIONAL { ?ocean wdt:P1944 ?relief.} #éventuellement une image en relief des océans
-  SERVICE wikibase:label {bd:serviceParam wikibase:language "fr" }
+  SERVICE wikibase:label {bd:serviceParam wikibase:language "fr,en" }
 }
 ```
+Je souhaitais utiliser l'outil map de wikidata mais la visualisation avec de tels résultats laisse à désirer, c'est pourquoi j'ai donc décider de travailler mes données sur un outil permettant à la fois de modifier mon tableau de données et de créer une visualisation. 
 
-Pour arranger mon tableau de données j'ai donc décider d'utiliser OpenRefine.
 
-
-##Évolution des températures moyenne de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
+## Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
 
 Les données extraites sont issues du site de la NASA, au format CSV. Les données étant de qualitées, je n'ai pas eu de modification majeures à faire en dehors de traductions de l'anglais au français des colonnes et des lignes. Sur la plateforme [Datawrapper](https://www.datawrapper.de), je me suis focalisée sur l'affinage et l'ajout d'annotations.
 
