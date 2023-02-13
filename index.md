@@ -6,8 +6,8 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
  > Source : [The Blue Marble: Land Surface, Ocean Color and Sea Ice ](https://visibleearth.nasa.gov/images/57730/the-blue-marble-land-surface-ocean-color-and-sea-ice)
 
 ## Sommaire
-1. [1](#données)
-2. [2](#b)
+1. [Collecte des données](#données)
+2. [Évolution des températures moyenne de l'air en surface des zones océaniques et terrestres](#températures)
 3. [3](#c)
 4. [4](#d)
 5. [5](#e)
@@ -57,7 +57,7 @@ On retrouve les 5 océans, et leurs superficies respectives :
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 
-## <a name="b"></a>
+##Évolution des températures moyenne de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
 
 Les données extraites sont issues du site de la NASA, au format CSV. Les données étant de qualitées, je n'ai pas eu de modification majeures à faire en dehors de traductions de l'anglais au français des colonnes et des lignes. Sur la plateforme [Datawrapper](https://www.datawrapper.de), je me suis focalisée sur l'affinage et l'ajout d'annotations.
 
