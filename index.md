@@ -1,5 +1,19 @@
 # Les océans et leurs habitants : entre intrus et légitimes résidents
 
+##
+
+```sparql
+
+#Océans
+SELECT DISTINCT ?ocean ?oceanLabel ?image
+WHERE {
+  ?ocean wdt:P31 wd:Q9430. # Un océan
+  OPTIONAL { ?ocean wdt:P18 ?image.} #une image en lien avec l'océan
+  SERVICE wikibase:label {bd:serviceParam wikibase:language "fr" }
+}
+
+```
+
 
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3FoceanLabel%20%3Focean%20%3Farea%20%3Fimage%0A%7B%0A%20%20%3Focean%20wdt%3AP31%20wd%3AQ9430.%20%23%20Un%20ocean%0A%20%20%3Focean%20wdt%3AP2046%20%3Farea.%20%23la%20superficie%20de%20l'ocean%0A%20%20%3Focean%20wdt%3AP2234%20%3Fvolume.%23le%20volume%20de%20l'ocean%0A%20%20OPTIONAL%20%7B%20%3Focean%20wdt%3AP18%20%3Fimage.%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22%20%7D%0A%7D%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
