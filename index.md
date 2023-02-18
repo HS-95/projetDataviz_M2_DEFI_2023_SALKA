@@ -131,6 +131,7 @@ Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car 
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/12792740"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+Les fanons des baleines sont des structures de filtrage situé dans la bouche. Ils leur permettent de filtrer de grandes quantités d'eau de mer pour attraper des proies telles que des krills, et malheureusement même les microplastiques ont finit par faire parti de leur "alimentation".
 
 ## 6. L'origine de ces taxonomies <a name="donnéesCroisées"></a> : 
  
