@@ -85,7 +85,7 @@ Je souhaitais utiliser l'outil map de Wikidata mais la visualisation avec de tel
 
 Pour créer cette carte j’ai importé les données à ma disposition, et je me suis rendu compte que les données de coordonnées géographique était inutile, car la latitude et la longitude sont calculées en fonction des données saisies dans la colonne “Adresse”.
 
-<iframe title="Localisation des océans" aria-label="Carte" id="datawrapper-chart-dxl9c" src="https://datawrapper.dwcdn.net/dxl9c/9/" scrolling="no" frameborder="0" style="border: none;" width="774" height="624" data-external="1"></iframe>
+<iframe title="Localisation des océans" aria-label="Carte" id="datawrapper-chart-dxl9c" src="https://datawrapper.dwcdn.net/dxl9c/10/" scrolling="no" frameborder="0" style="border: none;" width="774" height="624" data-external="1"></iframe>
 
 Les océans ont pour localisation un point présenté sous forme de cercle variant en fonction du volume de celui-ci (attention :  il ne faut pas oublier qu’un océan est une étendue d’eau pas un point précis). Sur chaque cercle, on peut retrouver une bulle d’information contenant les caractéristiques des océans récupérées au préalable par la requête wikidata. On y retrouve des liens cliquables, accessibles grâce à la fonction figer les infobulles. D’ailleurs leur contenu est codé ainsi : 
 
@@ -106,6 +106,8 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 
 
 [Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
+ 
+<p><a href="https://commons.wikimedia.org/wiki/File:Mikroplastasarp.jpg#/media/Fichier:Mikroplastasarp.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Mikroplastasarp.jpg" alt="Mikroplastasarp.jpg"></a><br>Par &lt;a href="//commons.wikimedia.org/wiki/User:Dantor" title="User:Dantor"&gt;Dantor&lt;/a&gt; (&lt;a href="//commons.wikimedia.org/wiki/User_talk:Dantor" title="User talk:Dantor"&gt;&lt;span class="signature-talk"&gt;talk&lt;/span&gt;&lt;/a&gt;) 20:55, 18 November 2013 (UTC) — &lt;span class="int-own-work" lang="fr"&gt;Travail personnel&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=29710934">Lien</a></p>
 
 > Observation au microscope de microplastiques
 >
