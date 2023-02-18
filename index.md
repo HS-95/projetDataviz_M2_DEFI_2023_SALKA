@@ -5,13 +5,12 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Vue%20a%C3%A9rienne%20du%20Monde%0A%23The%20Blue%20Marble%3A%20Land%20Surface%2C%20Ocean%20Color%20and%20Sea%20Ice%20%7C%20La%20bille%20bleue%20%3A%20surface%20terrestre%2C%20couleur%20de%20l'oc%C3%A9an%20et%20glaces%20maritimes%0A%23defaultView%3AImageGrid%0ASELECT%20%3Focean%20%3FoceanLabel%20%3FvueAerienne%0AWHERE%20%7B%0A%20%20%3Focean%20wdt%3AP31%20wd%3AQ9430.%20%23oc%C3%A9ans%0A%20%20%3Focean%20wdt%3AP8592%20%3FvueAerienne.%0A%20%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22%20%7D%0A%7D%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
  > Source : [The Blue Marble: Land Surface, Ocean Color and Sea Ice ](https://visibleearth.nasa.gov/images/57730/the-blue-marble-land-surface-ocean-color-and-sea-ice)
 
-## Sommaire
+## Sommaire : 
 1. [Collecte des données](#données)
 2. [Représentation visuelle de la localisation des océans.](#localisationCarte)
 3. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
-4. [Les intrus: des microplastiques dans les océans](#intrus)
-
-5. [5](#e)
+4. [Les intrus: microplastiques dans les océans](#intrus)
+5. [À la découverte d’êtres-vivants majestueux : les baleines](#baleines)
 6. [Conclusion](#conclusion)
 
 ## Collecte des données <a name="données"></a>
@@ -103,6 +102,8 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 ## Les intrus: des microplastiques dans les océans <a name="intrus"></a>
 
 
+[Image de l’observation au microscope de microplastiques](https://upload.wikimedia.org/wikipedia/commons/a/a9/Mikroplastasarp.jpg)
+
 > Image de l’observation au microscope de microplastiques
 >
 >> Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, [Source](https://commons.wikimedia.org/w/index.php?curid=29710934)
@@ -122,20 +123,19 @@ Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car 
 
 Les données permettant de faire cette datavisualisation sont en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
 
-## 4<a name="d"></a>
-## 5<a name="e"></a>
+## À la découverte d’êtres-vivants majestueux : les baleines<a name="baleines"></a>
 
 ##  Conclusion : <a name="conclusion"></a>
 
-Les  +  : 
-Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
-Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
-Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
-La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
+*Les  +  :
+*Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
+*Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
+*Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
+*La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
 
-Les  -  :  
-J’ai eu beaucoup de difficulté à trouver les données que l’on cherche et l'extension de fichier à exporter proposée rarement adéquate ( je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
-Difficulté de croiser des données
-Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de **** année, pour certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
-Sujet trop ambitieux qui nécessite plus de temps.
+*Les  -  :  
+*J’ai eu beaucoup de difficulté à trouver les données que l’on cherche et l'extension de fichier à exporter proposée rarement adéquate ( je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
+*Difficulté de croiser des données
+*Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de **** année, pour certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
+*Sujet trop ambitieux qui nécessite plus de temps.
 
