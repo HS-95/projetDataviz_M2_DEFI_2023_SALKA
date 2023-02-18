@@ -105,7 +105,7 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 ## 4. Les intrus : des microplastiques dans les océans <a name="intrus"></a>
 
 
-[Image de l’observation au microscope de microplastiques](https://commons.wikimedia.org/wiki/File:Mikroplastasarp.jpg#/media/Fichier:Mikroplastasarp.jpg)
+![Image de l’observation au microscope de microplastiques]( https://commons.wikimedia.org/wiki/File:Mikroplastasarp.jpg#/media/Fichier:Mikroplastasarp.jpg "Image de l’observation au microscope de microplastiques")
 > Observation au microscope de microplastiques
 >
 >> Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, [Source](https://commons.wikimedia.org/w/index.php?curid=29710934)
@@ -124,7 +124,7 @@ Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car 
  Les données permettant de faire cette datavisualisation étaient en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
 * Astuce : Séléctionner un pays pour mieux visualiser les bar charts et séléctionnez les séries de valeurs en légendes de votre choix.
 <div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
- On remarque que l'on ne peux dire que plus le taux de population cotières est important plus la quantité de déchet est importante. En effet pour certains pays le taux de population cotières est inférieur de moitié à la quantité de déchet.
+ On remarque que l'on ne peut pas dire que plus le taux de population cotières est important plus la quantité de déchet est importante. En effet pour certains pays le taux de population cotières est inférieur de moitié à la quantité de déchet produites.
 
 
 ## 5. À la découverte d’êtres-vivants majestueux : les baleines<a name="baleines"></a>
