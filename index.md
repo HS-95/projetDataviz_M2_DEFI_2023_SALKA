@@ -11,7 +11,8 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 3. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
 4. [Les intrus: microplastiques dans les océans](#intrus)
 5. [À la découverte d’êtres-vivants majestueux : les baleines](#baleines)
-6. [Conclusion](#conclusion)
+6. [L'origine de ces taxonomies](#donnéesCroisées)
+7. [Conclusion](#conclusion)
 
 ## Collecte des données <a name="données"></a>
 
@@ -114,11 +115,11 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12727263"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-Les microplastiques sont les petites particules inférieures à  5mm, liées à l’usure de matière plastique ou à des microbilles comme celles que l'on trouve dans les masques exfoliants ou les dentifrices.
+Les microplastiques sont les petites particules inférieures à 5mm, issus de l’usure de matière plastique ou à des microbilles comme celles que l'on trouve dans les masques exfoliants ou les dentifrices.
 
 Ces microplastiques sont dispersés partout dans le monde, en plus des sols, des différents points d’eau, on en retrouve énormément dans les océans, en surface comme dans les fonds marins. Depuis, l'ensemble des espèces de l’environnement marins ont été contaminés, nous contaminant par la suite, nous humain par le biais de notre alimentation,  car nous consommons pour la plupart certaines de ces espèces marines.
 
-Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](#https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
+Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](# https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -130,13 +131,10 @@ Les données permettant de faire cette datavisualisation sont en anglais. Pour t
 <div class="flourish-embed flourish-cards" data-src="visualisation/12792740"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-###Données croisées : le nombre d’espèces de baleine à fanons trouvées en fonction des années et les noms des personnes qui les ont découvert
-
-<div class="flourish-embed flourish-table" data-src="visualisation/12793882"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-L’objectif est de visualiser qui a nommé le plus de baleine à fanons, en quelle année et aussi en savoir plus sur la personne qui les a découverts et/ou décrits.
-
-
+## L'origine de ces taxonomies <a name="donnéesCroisées"></a> : 
+ 
+Nombre d’espèces de baleine à fanons trouvées en fonction des années et les noms des personnes qui les ont découvert :
+ 
 | Année de découverte/description | Personnes ayant décrit ou découvert ces espèces | Nombre d’espèces découvertes : |
 |---------------------------------|-------------------------------------------------|--------------------------------|
 | 1758                            | Carl von Linné                                  | 4                              |
@@ -156,19 +154,24 @@ L’objectif est de visualiser qui a nommé le plus de baleine à fanons, en que
 > Jeux de données extrait avant enrichissment par réconciliation sur Open Refine
 >
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+<div class="flourish-embed flourish-table" data-src="visualisation/12793882"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+L’objectif de cette visualisation sous forme de tableau est de visualiser qui a nommé le plus de baleine à fanons, en quelle année et aussi en savoir plus sur la personne qui les a découverts et/ou décrits. Il faut noter que la découverte d'une nouvelle espèces en 2003 concerne la même espèce pour les 3 personnes sont à l'origine de cette découverte.
 
 ##  Conclusion : <a name="conclusion"></a>
-`- Les  +  :
+
+ - Les  +  :
   - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
   - Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
   - Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
   - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
-
-- Les  -  :
+ 
+ - Les  -  :
   - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et recherchée les jeux de données en lien.
   - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
   - Difficulté de croiser des données
   - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur GBIF | Global Biodiversity Information Facility).
+  - La partie sur les données croisées n'en est pas réellement une.
   - Sujet trop ambitieux qui nécessite plus de temps.
 
 
