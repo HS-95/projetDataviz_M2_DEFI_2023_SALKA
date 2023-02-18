@@ -85,7 +85,7 @@ Pour créer cette carte j’ai importé les données à ma disposition, et je me
 <iframe title="Localisation des océans" aria-label="Carte" id="datawrapper-chart-dxl9c" src="https://datawrapper.dwcdn.net/dxl9c/9/" scrolling="no" frameborder="0" style="border: none;" width="774" height="624" data-external="1"></iframe>
 
 Les océans ont pour localisation un point présenté sous forme de cercle variant en fonction du volume de celui-ci (attention :  il ne faut pas oublier qu’un océan est une étendue d’eau pas un point précis). Sur chaque cercle, on peut retrouver une bulle d’information contenant les caractéristiques des océans récupérées au préalable par la requête wikidata. On y retrouve des liens cliquables, accessibles grâce à la fonction figer les infobulles. D’ailleurs leur contenu est codé ainsi : 
-
+```sparql
 {{ UPPER(oceanlabel) }}
 
 <h3>Caractéristiques :</h3>
@@ -105,7 +105,7 @@ Superficie : {{ FORMAT(area, "0,0") }} km²
 <a href="https://www.wikidata.org/wiki/Q98"> Source des informations</a>
 </p>
 </div>
-
+```
 À l’intérieur de chaque accolade on rappelle les données présentes dans les différentes colonnes de notre choix, et on peut au utiliser des balises html ou non.
 
 ## Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
