@@ -103,8 +103,9 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 
 ## Les intrus: des microplastiques dans les océans <a name="intrus"></a>
 
- 
+
 ![Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
+
 > Observation au microscope de microplastiques
 >
 >> Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, [Source](https://commons.wikimedia.org/w/index.php?curid=29710934)
@@ -126,18 +127,49 @@ Les données permettant de faire cette datavisualisation sont en anglais. Pour t
 
 ## À la découverte d’êtres-vivants majestueux : les baleines<a name="baleines"></a>
 
+<div class="flourish-embed flourish-cards" data-src="visualisation/12792740"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+Données croisées avec le nombre d’espèces trouvées en fonction des années et les noms des personnes qui les ont découvert
+
+
+qui a nommée le plus de baleine et quand
+
+année 
+nom du zoologiste
+nombre de baleines nommées
+
+| Année de découverte/description | Personnes ayant décrit ou découvert ces espèces | Nombre d’espèces découvertes : |
+|---------------------------------|-------------------------------------------------|--------------------------------|
+| 1758                            | Carl von Linné                                  | 4                              |
+| 1776                            | Philipp Ludwig Statius Müller                   | 1                              |
+| 1781                            | Georg Heinrich Borowski                         | 1                              |
+| 1804                            | Bernard-Germain de Lacépède                     | 1                              |
+| 1818                            | Bernard-Germain de Lacépède                     | 1                              |
+| 1822                            | Charles Des Moulins                             | 1                              |
+| 1846                            | John Edward Gray                                | 1                              |
+| 1861                            | Vilhelm Lilljeborg                              | 1                              |
+| 1867                            | Hermann Burmeister                              | 1                              |
+| 1878                            | John Anderson                                   | 1                              |
+| 2003                            | Shiro Wada                                      | 1                              |
+| 2003                            | Masayuki Oishi                                  | 1                              |
+| 2003                            | Tadasu K. Yamada                                | 1                              |
+
+> Jeux de données extrait avant enrichissment par réconciliation sur Open Refine
+>
+>>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+
 ##  Conclusion : <a name="conclusion"></a>
-
-
-- Les  +  :
- - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
- - Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
- - Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
- - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
+`- Les  +  :
+  - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
+  - Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
+  - Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
+  - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
 
 - Les  -  :
   - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et recherchée les jeux de données en lien.
   - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
   - Difficulté de croiser des données
-  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour récuérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
+  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur GBIF | Global Biodiversity Information Facility)..
   - Sujet trop ambitieux qui nécessite plus de temps.
+
