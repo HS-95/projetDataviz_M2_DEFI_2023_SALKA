@@ -7,15 +7,15 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 
 ## Sommaire
 1. [Collecte des données](#données)
-2. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
-3. [3](#c)
+2. [Représentation visuelle de la localisation des océans.](#localisationCarte)
+3. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
 4. [4](#d)
 5. [5](#e)
 6. [6](#f)
 
 ## Collecte des données <a name="données"></a>
 
-Tout d'abord, nous devons faire connaisance avec l'océan, qu'est-ce que c'est, où c'est, y en a-t'il qu'un ou plusieurs ? ... et pour y répondre rien de mieux qu'une requête wikidata :
+Tout d'abord, nous devons faire connaissance avec l'océan, qu'est-ce que c'est, où c'est, y en a-t-il qu'un seul ou plusieurs ? ... et pour y répondre rien de mieux qu'une requête wikidata :
 
 ``` sparql
 #Infos de base sur les océans
@@ -56,7 +56,7 @@ On retrouve les 5 océans, et leurs superficies respectives :
 >
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Souhaitant obtenir un jeu de données plus riches j'ai tenté de collecter des informations dans wikidata autours des océans. Le problème est que certaines lignes sont soit des doublons voir des triplées (exemple: il y a deux entités pour la propriété profondeur, donc un renvois d'une valeur moyenne et d'une valeur maximale ce qui fait que la ligne "océan pacifique" apparaît 2 fois). Soit vides, dû à l'absence de propriétés communes, d'où le choix d'utiliser la fonction "OPTIONNAL" afin de ne pas me retrouver avec 0 résultat, voire pire une ligne a été supprimée comme par exemple Océan Austral car il n'a pas la propriété "coordonnées géographiques" sur wikidata.
+Souhaitant obtenir un jeu de données plus riche j'ai tenté de collecter des informations dans wikidata autours des océans. Le problème est que certaines lignes sont soit des doublons voir des triplées (exemple: il y a deux entités pour la propriété profondeur, donc un renvois d'une valeur moyenne et d'une valeur maximale ce qui fait que la ligne "océan pacifique" apparaît 2 fois). Soit vides, dû à l'absence de propriétés communes, d'où le choix d'utiliser la fonction "OPTIONNAL" afin de ne pas me retrouver avec 0 résultat, voire pire une ligne a été supprimée comme par exemple Océan Austral car il n'a pas la propriété "coordonnées géographiques" sur wikidata.
 
 ```sparql
 #Informations sur les océans
@@ -75,18 +75,48 @@ SELECT DISTINCT  ?ocean ?oceanLabel ?area ?volume ?largeur ?profondeur ?carteLoc
   SERVICE wikibase:label {bd:serviceParam wikibase:language "fr,en" }
 }
 ```
-Je souhaitais utiliser l'outil map de wikidata mais la visualisation avec de tels résultats laisse à désirer, c'est pourquoi j'ai donc décider de travailler mes données sur un outil permettant à la fois de modifier mon tableau de données et de créer une visualisation. 
 
+## Représentation visuelle de la localisation des océans <a name="localisationCarte"></a>
+
+Je souhaitais utiliser l'outil map de Wikidata mais la visualisation avec de tels résultats laisse à désirer, c'est pourquoi j'ai donc décidé de travailler mes données sur Datawrapper, un outil de datavisualisation permettant à la fois de modifier mon tableau de données et de créer une visualisation sous forme de carte. 
+
+Pour créer cette carte j’ai importé les données à ma disposition, et je me suis rendu compte que les données de coordonnées géographique était inutile, car la latitude et la longitude sont calculées en fonction des données saisies dans la colonne “Adresse”.
+
+<iframe title="Localisation des océans" aria-label="Carte" id="datawrapper-chart-dxl9c" src="https://datawrapper.dwcdn.net/dxl9c/9/" scrolling="no" frameborder="0" style="border: none;" width="774" height="624" data-external="1"></iframe>
+
+Les océans ont pour localisation un point présenté sous forme de cercle variant en fonction du volume de celui-ci (attention :  il ne faut pas oublier qu’un océan est une étendue d’eau pas un point précis). Sur chaque cercle, on peut retrouver une bulle d’information contenant les caractéristiques des océans récupérées au préalable par la requête wikidata. On y retrouve des liens cliquables, accessibles grâce à la fonction figer les infobulles. D’ailleurs leur contenu est codé ainsi : 
+
+{{ UPPER(oceanlabel) }}
+
+<h3>Caractéristiques :</h3>
+<div><p> 
+Superficie : {{ FORMAT(area, "0,0") }} km²
+</p>
+<p>Volume : {{ FORMAT(volume, "0,0") }} km³
+</p>
+<p>Profondeur (max): {{ FORMAT(profondeur, "0,0") }} m </p><div>
+<p>
+<a href="{{ image }}"> Image </a>
+</p>
+<p>
+<a href="{{ relief }}"> Carte géographique du relief </a>
+</p>
+<p>
+<a href="https://www.wikidata.org/wiki/Q98"> Source des informations</a>
+</p>
+</div>
+
+À l’intérieur de chaque accolade on rappelle les données présentes dans les différentes colonnes de notre choix, et on peut au utiliser des balises html ou non.
 
 ## Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
 
-Les données extraites sont issues du site de la NASA, au format CSV. Les données étant de qualitées, je n'ai pas eu de modification majeures à faire en dehors de traductions de l'anglais au français des colonnes et des lignes. Sur la plateforme [Datawrapper](https://www.datawrapper.de), je me suis focalisée sur l'affinage et l'ajout d'annotations.
+Les données extraites sont issues du site de la NASA, au format CSV. Les données étant de qualitées, je n'ai pas eu de modifications majeures à faire en dehors de traductions de l'anglais au français des colonnes et des lignes. Sur la plateforme [Datawrapper](https://www.datawrapper.de), je me suis focalisée sur l'affinage et l'ajout d'annotations.
 
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}(); 
 </script>
  <iframe title="Température moyenne de l'air en surface des zones océaniques ou terrestres (°C)" aria-label="Interactive line chart" id="datawrapper-chart-ocDqe" src="https://datawrapper.dwcdn.net/ocDqe/1/" scrolling="no" frameborder="0" style="border: none;" width="1076" height="581" data-external="1"></iframe>
  
-Grâce à cette datavisualisation, il est aisé de se rendre compte que la température moyenne de l'air en surface des zones océaniques ou terrestres ne fait qu'augmenté depuis les années 1880, et c'est d'autant plus important au niveau de la surface terrestre, jusqu'à atteindre une augmentation de 1,57°C en 2020, à l'inverse des zones océaniques qui elles bien qu'elle subissent une augmentation des températures, celles-ci n'ont jamais dépassé les 0,7°C en terme d'augmentation. En effet, l'océan absorbe au moins 90 % de l'excès de chaleur dans l'atmosphère, donc les températures moyennes de l'air en surface  des zones océaniques augmentent moins rapidement que celles en surface des zones terrestres .
+Grâce à cette datavisualisation, il est aisé de se rendre compte que la température moyenne de l'air en surface des zones océaniques ou terrestres ne fait qu'augmenter depuis les années 1880, et c'est d'autant plus important au niveau de la surface terrestre, jusqu'à atteindre une augmentation de 1,57°C en 2020, à l'inverse des zones océaniques qui elles bien qu'elle subissent une augmentation des températures, celles-ci n'ont jamais dépassé les 0,7°C en terme d'augmentation. En effet, l'océan absorbe au moins 90 % de l'excès de chaleur dans l'atmosphère, donc les températures moyennes de l'air en surface  des zones océaniques augmentent moins rapidement que celles en surface des zones terrestres .
 
 ## 3<a name="c"></a>
 ## 4<a name="d"></a>
