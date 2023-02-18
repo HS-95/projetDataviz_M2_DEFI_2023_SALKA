@@ -9,12 +9,12 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 1. [Collecte des données](#données)
 2. [Représentation visuelle de la localisation des océans.](#localisationCarte)
 3. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
-4. [Les intrus: microplastiques dans les océans](#intrus)
+4. [Les intrus : microplastiques dans les océans](#intrus)
 5. [À la découverte d’êtres-vivants majestueux : les baleines](#baleines)
 6. [L'origine de ces taxonomies](#donnéesCroisées)
 7. [Conclusion](#conclusion)
 
-## Collecte des données <a name="données"></a>
+## 1. Collecte des données <a name="données"></a>
 
 Tout d'abord, nous devons faire connaissance avec l'océan, qu'est-ce que c'est, où c'est, y en a-t-il qu'un seul ou plusieurs ? ... et pour y répondre rien de mieux qu'une requête wikidata :
 
@@ -92,7 +92,7 @@ Les océans ont pour localisation un point présenté sous forme de cercle varia
 
 À l’intérieur de chaque accolade on rappelle les données présentes dans les différentes colonnes de notre choix, et on peut au utiliser des balises html ou non.
 
-## Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
+## 3.Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
 
 Les données extraites sont issues du site de la NASA, au format CSV. Les données étant de qualitées, je n'ai pas eu de modifications majeures à faire en dehors de traductions de l'anglais au français des colonnes et des lignes. Sur la plateforme [Datawrapper](https://www.datawrapper.de), je me suis focalisée sur l'affinage et l'ajout d'annotations.
 
@@ -102,7 +102,7 @@ Les données extraites sont issues du site de la NASA, au format CSV. Les donné
  
 Grâce à cette datavisualisation, il est aisé de se rendre compte que la température moyenne de l'air en surface des zones océaniques ou terrestres ne fait qu'augmenter depuis les années 1880, et c'est d'autant plus important au niveau de la surface terrestre, jusqu'à atteindre une augmentation de 1,57°C en 2020, à l'inverse des zones océaniques qui elles bien qu'elle subissent une augmentation des températures, celles-ci n'ont jamais dépassé les 0,7°C en terme d'augmentation. En effet, l'océan absorbe au moins 90 % de l'excès de chaleur dans l'atmosphère, donc les températures moyennes de l'air en surface  des zones océaniques augmentent moins rapidement que celles en surface des zones terrestres .
 
-## Les intrus: des microplastiques dans les océans <a name="intrus"></a>
+## 4. Les intrus : des microplastiques dans les océans <a name="intrus"></a>
 
 
 ![Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
@@ -122,18 +122,19 @@ Ces microplastiques sont dispersés partout dans le monde, en plus des sols, des
 Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](# https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
 
 -----------------------------------------------------------------------------
- 
-* Astuce : séléctionner un pays pour mieux visualiser les bar charts *
+ Les données permettant de faire cette datavisualisation étaient en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
+* Astuce : Séléctionner un pays pour mieux visualiser les bar charts et séléctionnez les séries de valeurs en légendes de votre choix.
 <div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ 
+ On remarque que l'on ne peux dire que plus le taux de population cotières est important plus la quantité de déchet est importante. En effet pour certains pays le taux de population cotières est inférieur de moitié à la quantité de déchet.
 
-Les données permettant de faire cette datavisualisation étaient en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
 
-## À la découverte d’êtres-vivants majestueux : les baleines<a name="baleines"></a>
+## 5. À la découverte d’êtres-vivants majestueux : les baleines<a name="baleines"></a>
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/12792740"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-## L'origine de ces taxonomies <a name="donnéesCroisées"></a> : 
+## 6. L'origine de ces taxonomies <a name="donnéesCroisées"></a> : 
  
 Nombre d’espèces de baleine à fanons trouvées en fonction des années et les noms des personnes qui les ont découvert :
  
@@ -158,9 +159,9 @@ Nombre d’espèces de baleine à fanons trouvées en fonction des années et le
 >>Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 <div class="flourish-embed flourish-table" data-src="visualisation/12793882"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-L’objectif de cette visualisation sous forme de tableau est de visualiser qui a nommé le plus de baleine à fanons, en quelle année et aussi en savoir plus sur la personne qui les a découverts et/ou décrits. Il faut noter que la découverte d'une nouvelle espèces en 2003 concerne la même espèce pour les 3 personnes sont à l'origine de cette découverte.
+L’objectif de cette visualisation sous forme de tableau est de voir qui a nommé le plus de baleines à fanons, en quelle année et aussi en savoir plus sur la personne qui les a découvertes et/ou décrites. Il faut noter que la découverte d'une nouvelle espèce en 2003 concerne la même espèce pour les 3 personnes à l'origine de cette découverte.
 
-##  Conclusion : <a name="conclusion"></a>
+## Conclusion : <a name="conclusion"></a>
 
 - Les  +  :
   - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
