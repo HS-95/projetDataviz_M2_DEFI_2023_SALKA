@@ -125,7 +125,6 @@ Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car 
  Les données permettant de faire cette datavisualisation étaient en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
 * Astuce : Séléctionner un pays pour mieux visualiser les bar charts et séléctionnez les séries de valeurs en légendes de votre choix.
 <div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
- 
  On remarque que l'on ne peux dire que plus le taux de population cotières est important plus la quantité de déchet est importante. En effet pour certains pays le taux de population cotières est inférieur de moitié à la quantité de déchet.
 
 
@@ -174,7 +173,6 @@ L’objectif de cette visualisation sous forme de tableau est de voir qui a nomm
   - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
   - Difficulté de croiser des données
   - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur la plateforme Global Biodiversity Information Facility (GBIF)).
+  - Sur Flourish je ne sais pas comment limité le nombre de bar chart à afficher pour la datavisualisation sur les pays et les quantités de plastiques générées.
   - La partie sur les données croisées n'en est pas réellement une.
   - Sujet trop ambitieux qui nécessite plus de temps.
-
-
