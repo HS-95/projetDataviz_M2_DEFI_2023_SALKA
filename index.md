@@ -105,7 +105,7 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 ## 4. Les intrus : des microplastiques dans les océans <a name="intrus"></a>
 
 
-![Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
+[Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
 
 > Observation au microscope de microplastiques
 >
