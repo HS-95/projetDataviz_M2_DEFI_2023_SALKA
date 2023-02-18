@@ -85,27 +85,8 @@ Pour créer cette carte j’ai importé les données à ma disposition, et je me
 <iframe title="Localisation des océans" aria-label="Carte" id="datawrapper-chart-dxl9c" src="https://datawrapper.dwcdn.net/dxl9c/9/" scrolling="no" frameborder="0" style="border: none;" width="774" height="624" data-external="1"></iframe>
 
 Les océans ont pour localisation un point présenté sous forme de cercle variant en fonction du volume de celui-ci (attention :  il ne faut pas oublier qu’un océan est une étendue d’eau pas un point précis). Sur chaque cercle, on peut retrouver une bulle d’information contenant les caractéristiques des océans récupérées au préalable par la requête wikidata. On y retrouve des liens cliquables, accessibles grâce à la fonction figer les infobulles. D’ailleurs leur contenu est codé ainsi : 
-```sparql
-{{ UPPER(oceanlabel) }}
 
-<h3>Caractéristiques :</h3>
-<div><p> 
-Superficie : {{ FORMAT(area, "0,0") }} km²
-</p>
-<p>Volume : {{ FORMAT(volume, "0,0") }} km³
-</p>
-<p>Profondeur (max): {{ FORMAT(profondeur, "0,0") }} m </p><div>
-<p>
-<a href="{{ image }}"> Image </a>
-</p>
-<p>
-<a href="{{ relief }}"> Carte géographique du relief </a>
-</p>
-<p>
-<a href="https://www.wikidata.org/wiki/Q98"> Source des informations</a>
-</p>
-</div>
-```
+
 À l’intérieur de chaque accolade on rappelle les données présentes dans les différentes colonnes de notre choix, et on peut au utiliser des balises html ou non.
 
 ## Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres <a name="températures"></a>
@@ -119,6 +100,22 @@ Les données extraites sont issues du site de la NASA, au format CSV. Les donné
 Grâce à cette datavisualisation, il est aisé de se rendre compte que la température moyenne de l'air en surface des zones océaniques ou terrestres ne fait qu'augmenter depuis les années 1880, et c'est d'autant plus important au niveau de la surface terrestre, jusqu'à atteindre une augmentation de 1,57°C en 2020, à l'inverse des zones océaniques qui elles bien qu'elle subissent une augmentation des températures, celles-ci n'ont jamais dépassé les 0,7°C en terme d'augmentation. En effet, l'océan absorbe au moins 90 % de l'excès de chaleur dans l'atmosphère, donc les températures moyennes de l'air en surface  des zones océaniques augmentent moins rapidement que celles en surface des zones terrestres .
 
 ## 3<a name="c"></a>
+
+
+> Image de l’observation au microscope de microplastiques
+>
+>>Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=29710934
+
+
+<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12727263"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+Les microplastiques sont les petites particules inférieures à  5mm, liées à l’usure de matière plastique ou à des microbilles comme celles que l'on trouve dans les masques exfoliants ou les dentifrices.
+
+Ces microplastiques sont dispersés partout dans le monde, en plus des sols, des différents points d’eau, on en retrouve énormément dans les océans, en surface comme dans les fonds marins. Depuis, l'ensemble des espèces de l’environnement marins ont été contaminés, nous contaminant par la suite, nous humain par le biais de notre alimentation,  car nous consommons pour la plupart certaines de ces espèces marines.
+
+Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](#https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
+
 ## 4<a name="d"></a>
 ## 5<a name="e"></a>
 ## 6<a name="f"></a>
