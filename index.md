@@ -9,7 +9,8 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 1. [Collecte des données](#données)
 2. [Représentation visuelle de la localisation des océans.](#localisationCarte)
 3. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
-4. [4](#d)
+4. [Les intrus: des microplastiques dans les océans](#intrus)
+
 5. [5](#e)
 6. [Conclusion](#conclusion)
 
@@ -99,12 +100,12 @@ Les données extraites sont issues du site de la NASA, au format CSV. Les donné
  
 Grâce à cette datavisualisation, il est aisé de se rendre compte que la température moyenne de l'air en surface des zones océaniques ou terrestres ne fait qu'augmenter depuis les années 1880, et c'est d'autant plus important au niveau de la surface terrestre, jusqu'à atteindre une augmentation de 1,57°C en 2020, à l'inverse des zones océaniques qui elles bien qu'elle subissent une augmentation des températures, celles-ci n'ont jamais dépassé les 0,7°C en terme d'augmentation. En effet, l'océan absorbe au moins 90 % de l'excès de chaleur dans l'atmosphère, donc les températures moyennes de l'air en surface  des zones océaniques augmentent moins rapidement que celles en surface des zones terrestres .
 
-## 3<a name="c"></a>
+## Les intrus: des microplastiques dans les océans <a name="intrus"></a>
 
 
 > Image de l’observation au microscope de microplastiques
 >
->>Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=29710934
+>> Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, [Source](https://commons.wikimedia.org/w/index.php?curid=29710934)
 
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12727263"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -124,16 +125,17 @@ Les données permettant de faire cette datavisualisation sont en anglais. Pour t
 ## 4<a name="d"></a>
 ## 5<a name="e"></a>
 
-##  Conclusion<a name="conclusion"></a>
-: 
+##  Conclusion : <a name="conclusion"></a>
 
-Les + : 
+Les  +  : 
 Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
 Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
 Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
 La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
-Les - :  
+
+Les  -  :  
 J’ai eu beaucoup de difficulté à trouver les données que l’on cherche et l'extension de fichier à exporter proposée rarement adéquate ( je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
 Difficulté de croiser des données
 Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de **** année, pour certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
 Sujet trop ambitieux qui nécessite plus de temps.
+
