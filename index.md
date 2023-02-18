@@ -76,6 +76,8 @@ SELECT DISTINCT  ?ocean ?oceanLabel ?area ?volume ?largeur ?profondeur ?carteLoc
 }
 ```
 
+Pour le reste des données exploitées, elles sont majoritairement issues de ressources des articles scientifiques. Pour les utiliser, j’ai fait du data wrangling avec Open Refine.
+
 ## Représentation visuelle de la localisation des océans <a name="localisationCarte"></a>
 
 Je souhaitais utiliser l'outil map de Wikidata mais la visualisation avec de tels résultats laisse à désirer, c'est pourquoi j'ai donc décidé de travailler mes données sur Datawrapper, un outil de datavisualisation permettant à la fois de modifier mon tableau de données et de créer une visualisation sous forme de carte. 
@@ -101,10 +103,9 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 
 ## Les intrus: des microplastiques dans les océans <a name="intrus"></a>
 
-
-[Image de l’observation au microscope de microplastiques](https://upload.wikimedia.org/wikipedia/commons/a/a9/Mikroplastasarp.jpg)
-
-> Image de l’observation au microscope de microplastiques
+ 
+![Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
+> Observation au microscope de microplastiques
 >
 >> Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, [Source](https://commons.wikimedia.org/w/index.php?curid=29710934)
 
@@ -127,15 +128,16 @@ Les données permettant de faire cette datavisualisation sont en anglais. Pour t
 
 ##  Conclusion : <a name="conclusion"></a>
 
-*Les  +  :
-*Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
-*Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
-*Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
-*La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
 
-*Les  -  :  
-*J’ai eu beaucoup de difficulté à trouver les données que l’on cherche et l'extension de fichier à exporter proposée rarement adéquate ( je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
-*Difficulté de croiser des données
-*Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de **** année, pour certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
-*Sujet trop ambitieux qui nécessite plus de temps.
+- Les  +  :
+ - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
+ - Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
+ - Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
+ - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
 
+- Les  -  :
+  - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et recherchée les jeux de données en lien.
+  - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
+  - Difficulté de croiser des données
+  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour récuérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
+  - Sujet trop ambitieux qui nécessite plus de temps.
