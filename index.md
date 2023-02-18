@@ -105,10 +105,7 @@ Grâce à cette datavisualisation, il est aisé de se rendre compte que la temp�
 ## 4. Les intrus : des microplastiques dans les océans <a name="intrus"></a>
 
 
-[Image de l’observation au microscope de microplastiques](Mikroplastasarp.jpg)
- 
-<p><a href="https://commons.wikimedia.org/wiki/File:Mikroplastasarp.jpg#/media/Fichier:Mikroplastasarp.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Mikroplastasarp.jpg" alt="Mikroplastasarp.jpg"></a><br>Par &lt;a href="//commons.wikimedia.org/wiki/User:Dantor" title="User:Dantor"&gt;Dantor&lt;/a&gt; (&lt;a href="//commons.wikimedia.org/wiki/User_talk:Dantor" title="User talk:Dantor"&gt;&lt;span class="signature-talk"&gt;talk&lt;/span&gt;&lt;/a&gt;) 20:55, 18 November 2013 (UTC) — &lt;span class="int-own-work" lang="fr"&gt;Travail personnel&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=29710934">Lien</a></p>
-
+[Image de l’observation au microscope de microplastiques](https://commons.wikimedia.org/wiki/File:Mikroplastasarp.jpg#/media/Fichier:Mikroplastasarp.jpg)
 > Observation au microscope de microplastiques
 >
 >> Par Dantor (talk) 20:55, 18 November 2013 (UTC) — Travail personnel, CC BY-SA 3.0, [Source](https://commons.wikimedia.org/w/index.php?curid=29710934)
