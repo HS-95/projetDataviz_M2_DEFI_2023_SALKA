@@ -165,13 +165,13 @@ L’objectif de cette visualisation sous forme de tableau est de voir qui a nomm
   - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
   - Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
   - Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
-  - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
+  - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est un gain de temps précieux.
  
 - Les  -  :
-  - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et recherchée les jeux de données en lien.
-  - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
+  - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et rechercher les jeux de données en lien.
+  - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels qui ne sont pas à ma disposition.)
   - Difficulté de croiser des données
   - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur la plateforme Global Biodiversity Information Facility (GBIF)).
-  - Sur Flourish je ne sais pas comment limité le nombre de bar chart à afficher pour la datavisualisation sur les pays et les quantités de plastiques générées.
+  - Sur Flourish je ne sais pas comment limiter le nombre de bar chart à afficher pour la datavisualisation sur les pays et les quantités de plastiques générées.
   - La partie sur les données croisées n'en est pas réellement une.
   - Sujet trop ambitieux qui nécessite plus de temps.
