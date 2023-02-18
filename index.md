@@ -114,7 +114,12 @@ Les microplastiques sont les petites particules inférieures à  5mm, liées à 
 
 Ces microplastiques sont dispersés partout dans le monde, en plus des sols, des différents points d’eau, on en retrouve énormément dans les océans, en surface comme dans les fonds marins. Depuis, l'ensemble des espèces de l’environnement marins ont été contaminés, nous contaminant par la suite, nous humain par le biais de notre alimentation,  car nous consommons pour la plupart certaines de ces espèces marines.
 
-Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](#https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
+Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](# https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
+
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Les données permettant de faire cette datavisualisation sont en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
 
 ## 4<a name="d"></a>
 ## 5<a name="e"></a>
