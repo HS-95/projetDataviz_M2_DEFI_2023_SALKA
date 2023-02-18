@@ -121,10 +121,12 @@ Ces microplastiques sont dispersés partout dans le monde, en plus des sols, des
 
 Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](# https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
 
-
+-----------------------------------------------------------------------------
+ 
+* Astuce : séléctionner un pays pour mieux visualiser les bar charts *
 <div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Les données permettant de faire cette datavisualisation sont en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
+Les données permettant de faire cette datavisualisation étaient en anglais. Pour traduire les intitulés des colonnes, c’est évident, par contre traduire le nom de chaque pays, ligne par ligne aurait été chronophage, l’astuce a été d'utiliser OpenRefine et de réconcilier la colonne Pays avec les entités pays de wikidata en français. 
 
 ## À la découverte d’êtres-vivants majestueux : les baleines<a name="baleines"></a>
 
@@ -160,17 +162,17 @@ L’objectif de cette visualisation sous forme de tableau est de visualiser qui 
 
 ##  Conclusion : <a name="conclusion"></a>
 
- - Les  +  :
+- Les  +  :
   - Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
   - Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
   - Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
   - La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
  
- - Les  -  :
+- Les  -  :
   - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et recherchée les jeux de données en lien.
   - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
   - Difficulté de croiser des données
-  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur GBIF | Global Biodiversity Information Facility).
+  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur la plateforme Global Biodiversity Information Facility (GBIF)).
   - La partie sur les données croisées n'en est pas réellement une.
   - Sujet trop ambitieux qui nécessite plus de temps.
 
