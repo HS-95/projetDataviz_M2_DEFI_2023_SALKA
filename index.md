@@ -130,14 +130,12 @@ Les données permettant de faire cette datavisualisation sont en anglais. Pour t
 <div class="flourish-embed flourish-cards" data-src="visualisation/12792740"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-Données croisées avec le nombre d’espèces trouvées en fonction des années et les noms des personnes qui les ont découvert
+###Données croisées : le nombre d’espèces de baleine à fanons trouvées en fonction des années et les noms des personnes qui les ont découvert
 
+<div class="flourish-embed flourish-table" data-src="visualisation/12793882"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-qui a nommée le plus de baleine et quand
+L’objectif est de visualiser qui a nommé le plus de baleine à fanons, en quelle année et aussi en savoir plus sur la personne qui les a découverts et/ou décrits.
 
-année 
-nom du zoologiste
-nombre de baleines nommées
 
 | Année de découverte/description | Personnes ayant décrit ou découvert ces espèces | Nombre d’espèces découvertes : |
 |---------------------------------|-------------------------------------------------|--------------------------------|
@@ -170,6 +168,7 @@ nombre de baleines nommées
   - J’ai eu beaucoup de difficultés à trouver les données que je voulais, si j'avais opté pour la facilité il aurait été plus judicieux de se baser et de partir sur des jeux de données existants plutôt que de partir sur une idée de sujet et recherchée les jeux de données en lien.
   - Extension de fichier à exporter proposée rarement adéquate (je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
   - Difficulté de croiser des données
-  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur GBIF | Global Biodiversity Information Facility)..
+  - Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de X année, pour en récupérer certaines il aurait fallu créer des comptes avec adresse mail et mot de passe (exemple sur GBIF | Global Biodiversity Information Facility).
   - Sujet trop ambitieux qui nécessite plus de temps.
+
 
