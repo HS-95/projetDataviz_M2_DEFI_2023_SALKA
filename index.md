@@ -11,7 +11,7 @@ Les océans..., rien qu'à lire ce mot, nous savons déjà que nous nous aventur
 3. [Évolution des températures moyennes de l'air en surface des zones océaniques et terrestres](#températures)
 4. [4](#d)
 5. [5](#e)
-6. [6](#f)
+6. [Conclusion](#conclusion)
 
 ## Collecte des données <a name="données"></a>
 
@@ -114,7 +114,7 @@ Les microplastiques sont les petites particules inférieures à  5mm, liées à 
 
 Ces microplastiques sont dispersés partout dans le monde, en plus des sols, des différents points d’eau, on en retrouve énormément dans les océans, en surface comme dans les fonds marins. Depuis, l'ensemble des espèces de l’environnement marins ont été contaminés, nous contaminant par la suite, nous humain par le biais de notre alimentation,  car nous consommons pour la plupart certaines de ces espèces marines.
 
-Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](# https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
+Les préoccupations autour de ces émissions ne sont pas prêtes de cesser, car en dehors de ceux déjà dans la nature involontairement (dans les eaux de surface européennes il y a  à environ 176 000 tonnes de microplastiques par an), il faut savoir qu’ au sein de l’UE, environ  [145 000 tonnes](#https://echa.europa.eu/fr/hot-topics/microplastics) de microplastiques au total sont utilisés chaque année. 
 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12728041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -123,4 +123,17 @@ Les données permettant de faire cette datavisualisation sont en anglais. Pour t
 
 ## 4<a name="d"></a>
 ## 5<a name="e"></a>
-## 6<a name="f"></a>
+
+##  Conclusion<a name="conclusion"></a>
+: 
+
+Les + : 
+Sujet passionnant, enrichissant et qui me motive à continuer ce projet de datavisualisation de mon côté.
+Meilleure compréhension des outils de datavisualisation au fur et à mesure de leur utilisation.
+Utilisation de Github pages, que je pourrais à l’occasion me réapproprier pour d'autres projets.
+La possibilité de transformer facilement le contenu des colonnes en un clic sur OpenRefine est révolutionnaire et d’un gain de temps précieux.
+Les - :  
+J’ai eu beaucoup de difficulté à trouver les données que l’on cherche et l'extension de fichier à exporter proposée rarement adéquate ( je suis tombée sur beaucoup de fichiers .gz ou des données à exploiter en langage R ou autre logiciels pas à ma disposition.)
+Difficulté de croiser des données
+Les données ne sont pas en Open Data, très souvent il y a des paramètres bloquants, comme par exemple, les données ne sont exportables qu’à partir de **** année, pour certaines il aurait fallu créer des comptes avec adresse mail et mot de passe.
+Sujet trop ambitieux qui nécessite plus de temps.
